@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", serif;
+}
+
+.container{
+    max-width: 75rem;
+    margin: auto;
+}
+section{
+    width: 70rem;
+    margin: auto;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7rem;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 3rem;
+    color: #858585;
+    font-size: 600;
+    
+}
+
+.grow-list{
+    flex-grow: 1;
+}
+
+.list-item{
+    margin-right: 30px;
+    cursor: pointer;
+    
+}
+
+.list-item:first-child{
+    color: #000;
+}
+
+.nav-button{
+    background-color: blue;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    
+}
+
+
+/**************banner*******/
+
+.banner-container{
+    display: flex;
+    width: 30rem;
+    margin-top: 5rem;
+
+}
+.banner-container div img{
+    position: absolute;
+    width: 700px;
+    top: 5rem;
+}
+
+
+.heading-text{
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 1.2;
+    
+}
+
+.heading-text span{
+    color: #37349f;
+}
+.description{
+    font-size: 18px;
+    color: #939a9b;
+    margin: 2rem 0rem;
+}
+
+.hero-btn{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    
+}
